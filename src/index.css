@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Distressed&family=Rubik+Marker+Hatch");
+
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0fff0;
+}
+
+nav {
+  background-color: mistyRose;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin-inline: 5px;
+}
+
+.card {
+  margin: 10px;
+}
+
+form {
+  display: block;
+}
+
+.card-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-bar {
+  margin-right: 40px;
+}
+
+.container-unset {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.images-unset {
+  font-family: "Rubik Distressed", cursive;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.tags button {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1.05rem;
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: mistyRose;
+  font-weight: bold;
+}
+
+.loader {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
