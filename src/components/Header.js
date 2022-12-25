@@ -41,7 +41,7 @@ const Header = (props) => {
           // vertical padding + font size from searchIcon
           paddingLeft: `calc(1em + ${theme.spacing(4)})`,
           transition: theme.transitions.create('width'),
-          width: '35ch',
+          width: '25ch',
           textAlign:"center",
           [theme.breakpoints.up('sm')]: {
             width: '35ch',

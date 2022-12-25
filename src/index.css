@@ -64,6 +64,7 @@ form {
   display: flex;
   justify-content: center;
   margin: 5px;
+  flex-wrap: wrap;
 }
 
 .tags button {
@@ -82,4 +83,25 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .images-unset {
+    font-size: 2rem;
+    margin-top: 70px;
+  }
+  .container-unset {
+    width: 100%;
+  }
+
+  .tags {
+    justify-content: space-evenly;
+  }
 }
