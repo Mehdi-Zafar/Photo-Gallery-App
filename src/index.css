@@ -85,6 +85,41 @@ form {
   justify-content: center;
 }
 
+.flexContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.blockText {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+.img {
+  transform: scale(1);
+  transition: all 2s;
+}
+
+.img:hover {
+  transform: scale(1.03);
+  transition: all 2s;
+}
+
 @media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
